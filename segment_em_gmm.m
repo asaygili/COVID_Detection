@@ -10,7 +10,6 @@ h=histogram(ima);
 x=find(h);
 h=h(x);
 x=x(:);h=h(:);
-% initiate parameters
 mu=(1:k)*m/(k+1);
 v=ones(1,k)*m;
 p=ones(1,k)*1/k;
